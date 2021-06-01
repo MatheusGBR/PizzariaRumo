@@ -1,0 +1,118 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main class="container">
+    <div class="row principal">
+        <div class="col-12 texto">
+            <h2>Pedidos</h2>
+            <p>Cadastro de pedidos</p>
+        </div>
+
+        <div class="col-12 formulario">
+            <form method="post" action="">
+
+                <div class="col-12 mesa">
+                    <label for="numero-mesa"> Número da mesa: </label>
+                    <Select id="numero-mesa" name="NumMesa">
+                        <option selected>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                    </Select>
+                </div>
+
+                <div class="col-12 pedidos-pizza">
+                    <h4>Pizza(s)</h4>
+                    <label for="cardapio-pizza"> Sabor pizza: </label>
+                    <Select id="cardapio-pizza" name="NomePizza">
+                        <option selected></option>
+                        <option>4 Queijos</option>
+                        <option>Calabresa</option>
+                        <option>Catuperoni</option>
+                        <option>mussarela</option>
+                        <option>Margherita</option>
+                        <option>Pepperoni</option>
+                        <option>Presunto</option>
+                        <option>Napolitana</option>
+                        <option>Frango com catupery</option>
+                        <option>Portuguesa</option>
+                        <option>Bacon e Milho</option>
+                    </Select>
+
+                    <label for="quantidade-pizza"> Qtd: </label>
+                    <Select id="quantidade-pizza" name="QtdPizza">
+                        <option selected>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </Select>
+
+                    <p class="Observacao">Observação: </p>
+                    <input type="text" class="label" name="Observação" size="30" />
+                </div>
+
+                <div class="col-12 pedidos-bebidas">
+                    <h4>Bebidas</h4>
+                    <label for="cardapio-bebida"> Bebida: </label>
+                    <Select id="cardapio-bebida" name="NomeBebida">
+                        <option selected>Nenhum</option>
+                        <option>Coca-Cola</option>
+                        <option>Fanta</option>
+                        <option>Guarana</option>
+                        <option>kuat</option>
+
+                    </Select>
+                    <label for="quantidade-bebida"> Qtd: </label>
+                    <Select id="quantidade-bebida" name="QtdBebida">
+                        <option selected>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </Select>
+
+                    <p class="Observacao">Observação: </p>
+                    <input type="text" class="label" name="Observação" size="35" />
+                </div>
+
+
+                <div class="botao">
+                    <button class="btn1" type="submit" name="enviar">Registrar Pedido</button>
+                    <button class="btn2" type="reset" name="apagar">Apagar pedido</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</main>

@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Copa";
+    List<Business.Cadastro> cadastros = ViewBag.Cadastro;
+}
+
+@Styles.Render("~/Content/StyleSheetCopa.css")
+
+<div class="pedidos-bebida">
+    <div class="texto">
+        <h1>Pedido</h1>
+        <p>Registro de pedidos - Bebida</p>
+    </div>
+
+    <div class="Bebida">
+        <tr>
+            @foreach (var p in cadastros)
+            {
+                <th>p.id</th>
+                <th>p.Mesa</th>
+                <th>p.Bebida</th>
+                <th>p.qtdBebida</th>
+                <th>p.ObservacaoBebida</th>
+            }
+        </tr>
+    </div>
+    <hr />
+</div>

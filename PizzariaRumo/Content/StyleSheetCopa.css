@@ -1,0 +1,29 @@
+﻿div .pedidos-bebida .texto {
+    padding-top: 40px;
+    text-align: center;
+    color: rgb(66, 134, 134);
+}
+
+    div .pedidos-bebida .texto h1. {
+        text-align: center;
+        color: rgb(247, 39, 39);
+    }
+
+    div .pedidos-bebida.texto p {
+        text-align: center;
+        color: rgb(247, 39, 39);
+    }
+
+div .pedidos-bebida {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+    div .pedidos-bebida .pizza {
+        padding: 20px;
+        margin: 5px;
+        border-radius: 4px;
+        border: 2px solid #06415b;
+    }

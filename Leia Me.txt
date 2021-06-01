@@ -1,0 +1,15 @@
+Matheus Goulart da Silva 
+
+Projeto De Garçon -  Rumo Soluções
+
+- Crie um Banco de dados Com o nome de "Pedidos".
+- Insira o data source no aquivo de web.config na parte de <appSettings>, insirá a tag <add> com os atibutos 'key' e 'value' e em value voce coloca seu data source.
+
+
+O programa apresenta alguns problemas no codigo de conexão com o banco de dados, onde não obtive êxito em resolve-lo.
+
+Ele tambem apresentao outro erro na execução, na qual não chega nem a rodar as paginas, não consegui identificar o problema, porém o resto do código imagino que esteja tudo certo.
+
+O programa foi desenvolvido com bastante dedicação e tive q estudar bastante pra conseguir entender o que tinha que ser feito, e como que se fazia.
+
+Desde já agradeço pela oportunidade do estágio.  

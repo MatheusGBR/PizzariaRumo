@@ -1,0 +1,9 @@
+C:\Users\mathe\source\repos\PizzariaRumo\Business\bin\Debug\Business.dll
+C:\Users\mathe\source\repos\PizzariaRumo\Business\bin\Debug\Business.pdb
+C:\Users\mathe\source\repos\PizzariaRumo\Business\bin\Debug\BanncoDeDados.dll
+C:\Users\mathe\source\repos\PizzariaRumo\Business\bin\Debug\BanncoDeDados.pdb
+C:\Users\mathe\source\repos\PizzariaRumo\Business\obj\Debug\Business.csproj.AssemblyReference.cache
+C:\Users\mathe\source\repos\PizzariaRumo\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\PizzariaRumo\Business\obj\Debug\Business.csproj.CopyComplete
+C:\Users\mathe\source\repos\PizzariaRumo\Business\obj\Debug\Business.dll
+C:\Users\mathe\source\repos\PizzariaRumo\Business\obj\Debug\Business.pdb

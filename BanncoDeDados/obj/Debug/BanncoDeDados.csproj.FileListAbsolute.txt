@@ -1,0 +1,5 @@
+C:\Users\mathe\source\repos\PizzariaRumo\BanncoDeDados\bin\Debug\BanncoDeDados.dll
+C:\Users\mathe\source\repos\PizzariaRumo\BanncoDeDados\bin\Debug\BanncoDeDados.pdb
+C:\Users\mathe\source\repos\PizzariaRumo\BanncoDeDados\obj\Debug\BanncoDeDados.csproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\PizzariaRumo\BanncoDeDados\obj\Debug\BanncoDeDados.dll
+C:\Users\mathe\source\repos\PizzariaRumo\BanncoDeDados\obj\Debug\BanncoDeDados.pdb

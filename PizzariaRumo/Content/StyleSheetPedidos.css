@@ -1,0 +1,62 @@
+﻿
+
+main .principal .texto {
+    padding-top: 40px;
+    text-align: center;
+    color: rgb(66, 134, 134);
+}
+
+    main .principal .texto h2 {
+        text-align: center;
+        color: rgb(247, 39, 39);
+    }
+
+main .principal .formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+    main .principal .formulario .mesa {
+        padding: 20px;
+        margin: 5px;
+        border-radius: 4px;
+        border: 2px solid #06415b;
+    }
+
+    main .principal .formulario .pedidos-pizza {
+        padding: 15px;
+        margin: 5px;
+        text-align: center;
+        border-radius: 4px;
+        border: 2px solid #06415b;
+    }
+
+    main .principal .formulario .pedidos-bebidas {
+        padding: 15px;
+        margin: 5px;
+        text-align: center;
+        border-radius: 4px;
+        border: 2px solid #06415b;
+    }
+
+main .principal .botao {
+    text-align: center;
+}
+
+    main .principal .botao .btn1 {
+        color: white;
+        padding: 10px;
+        background-color: red;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 6px;
+    }
+
+    main .principal .botao .btn2 {
+        color: rgb(255, 0, 0);
+        padding: 10px;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid rgb(255, 0, 0);
+        border-radius: 6px;
+    }

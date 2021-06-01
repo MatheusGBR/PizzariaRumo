@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Cozinha";
+    List<Business.Cadastro> cadastros = ViewBag.Cadastro;
+}
+
+@Styles.Render("~/Content/StyleSheetCozinha.css")
+
+<div class="pedidos-pizza">
+    <div class="texto">
+        <h1>Pedido</h1>
+        <p>Registro de pedidos - Pizza</p>
+    </div>
+
+    <div class="pizza">
+        <tr>
+            @foreach (var p in cadastros)
+            {
+                <th>p.id</th>
+                <th>p.Mesa</th>
+                <th>p.Pizza</th>
+                <th>p.qtdPizza</th>
+                <th>p.ObservacaPizza</th>
+            }
+        </tr>
+    </div>
+    <hr />
+</div>
